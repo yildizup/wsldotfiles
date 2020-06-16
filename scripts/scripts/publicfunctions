@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source /home/meyya/scripts/fzffunctions
+source /home/meyya/scripts/android_ssh
+source /home/meyya/scripts/tmux_aliases
+
