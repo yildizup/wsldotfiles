@@ -1,0 +1,9 @@
+# git status shows all files as modified
+
+It may be line endings, WSL thinks it is linux so it will use LF as the line endings.
+
+You can set git to only use CRLF line endings with:
+
+`git config --global core.autocrlf true`
+
+
