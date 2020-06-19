@@ -73,3 +73,22 @@ highlight Folded ctermbg=black
 autocmd Filetype rmd map <F5> :w<bar>!echo<space>"require(rmarkdown);<space>render('<c-r>%')"<space>\|<space>R<space>--vanilla<enter>
 " for automatic formatting of paragraphs
 autocmd BufReadPost,BufNewFile *.rmd,*.tex setlocal textwidth=100
+
+" SNIPPETS
+
+command Srmdhead :-1read ~/.vim/snippets/header.yaml
+
+command Srmdpdfhead :-1read ~/.vim/snippets/pdfheader.yaml
+
+command Srmdcodeblock :-1read ~/.vim/snippets/codeblock.rmd
+
+command Srmdstyle :-1read~/.vim/snippets/rmdstyle.css
+
+command Stexbeamerframe :-1read~/.vim/snippets/texframe.tex
+
+command Stexitemize :-1read~/.vim/snippets/texitemize.tex
+
+command Srmdknitrimg :-1read ~/.vim/snippets/knitr-img.rmd
+
+command Srmdcomment :-1read ~/.vim/snippets/comment.rmd
+
