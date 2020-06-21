@@ -114,6 +114,8 @@ fi
 
 
 alias l='ls -l'
+alias c='cd'
+alias v='vim'
 
 # vim key bindings
 set -o vi
