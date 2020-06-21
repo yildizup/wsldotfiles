@@ -24,7 +24,7 @@ if [ "$1" == "-h" ]; then
   return 0
 fi
 
-adb forward tcp:8022 tcp:8022 
+$HOME/adb/adb.exe forward tcp:8022 tcp:8022 
 }
 
 function phonessh() {

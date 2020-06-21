@@ -92,3 +92,6 @@ command Srmdknitrimg :-1read ~/.vim/snippets/knitr-img.rmd
 
 command Srmdcomment :-1read ~/.vim/snippets/comment.rmd
 
+
+" Toggle auto-indenting for code paste 
+set pastetoggle=<F2>
